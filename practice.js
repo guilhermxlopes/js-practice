@@ -33,3 +33,12 @@ secondd.innerText = "Me too!";
 
 divbox.append(firstt, secondd);
 body.append(divbox);
+
+// h1 purple with created div
+const div = document.querySelector(".box");
+const h1 = document.createElement("h1");
+
+h1.style.color = "purple";
+h1.innerText = "Testing";
+
+div.append(h1);
