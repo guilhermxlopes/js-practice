@@ -42,3 +42,7 @@ h1.style.color = "purple";
 h1.innerText = "Testing";
 
 div.append(h1);
+
+//button to change the font color
+const testing = document.querySelector(".testing");
+const textcolor = (testing.style.color = "blue");
