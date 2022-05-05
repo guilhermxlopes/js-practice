@@ -45,8 +45,11 @@ div.append(h1);
 
 //button to change the font color
 const btn = document.getElementById("bbtt");
-const tit = document.querySelector(".tit");
+const tit = document.querySelector(".tit1");
+const testing = document.querySelector("testing1");
 
 btn.onclick = function () {
-  tit.style.color = "red";
+  if (btn.onclick) {
+    tit.classList.toggle("tit2");
+  }
 };
