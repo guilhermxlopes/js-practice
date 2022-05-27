@@ -53,3 +53,6 @@ btn.onclick = function () {
     tit.classList.toggle("tit2");
   }
 };
+
+const btn = document.querySelector("#btn");
+btn.onclick = () => alert("Hello World!");
