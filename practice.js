@@ -60,5 +60,5 @@ btn1.addEventListener("click", () => {
 });
 
 btn1.addEventListener("click", function (e) {
-  console.log(e);
+  e.target.style.background = "blue";
 });
