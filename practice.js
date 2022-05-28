@@ -58,3 +58,7 @@ const btn1 = document.querySelector("#btn");
 btn1.addEventListener("click", () => {
   alert("Hello World!");
 });
+
+btn1.addEventListener("click", function (e) {
+  console.log(e);
+});
